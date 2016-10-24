@@ -47,13 +47,21 @@ table {
 	border-spacing: 0;
 }
 
+
+.topborder{
+	border-top:3px solid #f8695a;
+    margin-left:-175px;
+    margin-right:-175px;
+    margin-top:0px;
+    
+}
+
 .body{
 	background-color: #1a2325;
-	font-family:"LFTEtica";
-	border-top: 2px solid #f8695a; 
+	font-family:"LFT Etica"; 
 	margin-right: auto;
   	margin-left: auto;
-  	width: 960px;
+  	width: 1000px;
 }
 .head{
 	color:white;
@@ -62,6 +70,7 @@ table {
 	padding:20px;
 	margin-left:-100px;
 	width: 300px;
+
 	 }
 	 div{margin-top: 200px;}
 .p1{
@@ -70,6 +79,7 @@ table {
 	width: 356px;
 	padding:20px;
 	margin-left:-100px;
+
 	 }
 .p{
 	color:#abadad;
@@ -77,6 +87,7 @@ table {
 	width: 356px;
 	padding:20px;
 	margin-left:-100px;
+
 	
 	}
 .a{
@@ -86,6 +97,10 @@ table {
 	width:356px;
 	padding:20px;
 	margin-left:-100px;
+	border-bottom: .1px dotted gray;
+	padding-bottom: 50px;
+	padding-right:100px;
+	text-decoration:none; 
 	}
 .price{
 	color:white;
@@ -109,7 +124,9 @@ table {
 .logo{
 	margin-top:-380px;
 	float:right;
-	margin-right: -50px;
+	border:10px solid white;
+	margin-right: -100px;
+
 
 }
 .logo1{
@@ -120,19 +137,29 @@ table {
 	
 	}
 .logo3{margin-top:-500px;
+	border:10px solid white;
 	float:right;
+	margin-right:-100px;
 	}
 .logo4{margin-top:-500px;
 	margin-bottom: 100px;
+	border:10px solid white;
+	margin-right:-100px;
 	float:right;
 	}
-.head1{margin-top: 600px;
+.head1{margin-top: 400px;
 	   color:white;
 	   font-size:36px;
-		margin-left: -80px;}
-.head2{margin-top: 600px;
+		margin-left: -80px;
+	border-top:.1px dotted gray;
+	padding-top: 200px;
+	}
+.head2{margin-top: 500px;
 	   color:white;
 	   font-size:36px;
-	   margin-left: -80px;}
+	   margin-left: -80px;
+	border-top:.1px dotted gray;
+	padding-top: 200px;
+}
 
 
