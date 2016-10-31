@@ -50,8 +50,8 @@ table {
 
 .topborder{
 	border-top:3px solid #f8695a;
-    margin-left:-175px;
-    margin-right:-175px;
+    margin-left:-225px;
+    margin-right:-225px;
     margin-top:0px;
     
 }
@@ -80,6 +80,7 @@ table {
 	padding:20px;
 	margin-left:-100px;
 
+
 	 }
 .p{
 	color:#abadad;
@@ -87,6 +88,7 @@ table {
 	width: 356px;
 	padding:20px;
 	margin-left:-100px;
+	line-height: 24px;
 
 	
 	}
@@ -151,15 +153,13 @@ table {
 	   color:white;
 	   font-size:36px;
 		margin-left: -80px;
-	border-top:.1px dotted gray;
+	border-top:.1px dotted #31393b;
 	padding-top: 200px;
 	}
 .head2{margin-top: 500px;
 	   color:white;
 	   font-size:36px;
 	   margin-left: -80px;
-	border-top:.1px dotted gray;
+	border-top:.1px dotted #31393b;
 	padding-top: 200px;
 }
-
-
