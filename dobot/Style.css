@@ -103,6 +103,7 @@ table {
 	padding-bottom: 50px;
 	padding-right:100px;
 	text-decoration:none; 
+	display: block;
 	}
 .price{
 	color:white;
@@ -124,7 +125,7 @@ table {
 	margin-left:20px;
 }
 .logo{
-	margin-top:-380px;
+	margin-top:-550px;
 	float:right;
 	border:10px solid white;
 	margin-right: -100px;
@@ -138,12 +139,12 @@ table {
 	margin-left: -100px;
 	
 	}
-.logo3{margin-top:-500px;
+.logo3{margin-top:-675px;
 	border:10px solid white;
 	float:right;
 	margin-right:-100px;
 	}
-.logo4{margin-top:-500px;
+.logo4{margin-top:-675px;
 	margin-bottom: 100px;
 	border:10px solid white;
 	margin-right:-100px;
