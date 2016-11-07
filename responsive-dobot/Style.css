@@ -1,0 +1,368 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.topborder{
+	border-top:3px solid #f8695a;
+    margin-left:-225px;
+    margin-right:-225px;
+    margin-top:0px;
+    
+}
+
+.body{
+	background-color: #1a2325;
+	font-family:"LFT Etica"; 
+	margin-right: auto;
+  	margin-left: auto;
+  	width: 1000px;
+}
+.head{
+	color:white;
+	font-size:36px;
+	margin-top: 200px;
+	padding:20px;
+	margin-left:-100px;
+	width: 300px;
+
+	 }
+	 div{margin-top: 200px;}
+
+.p1{
+	color:#555a5b;
+	font-size:16px;
+	width: 356px;
+	padding:20px;
+	margin-left:-100px;
+
+
+	 }
+.p{
+	color:#abadad;
+	font-size:16px;
+	width: 356px;
+	padding:20px;
+	margin-left:-100px;
+	line-height: 24px;
+
+	
+	}
+.a{
+
+	color:#01bfc1;
+	font-size:16px;
+	width:356px;
+	padding:20px;
+	margin-left:-100px;
+	border-bottom: .1px dotted #31393b;
+	padding-bottom: 50px;
+	padding-right:100px;
+	text-decoration:none; 
+	display: block;
+	}
+.price{
+	color:white;
+	font-family:"Quatro-slab";
+	font-size:24px;
+	padding:20px;
+	
+	margin-left:-100px;
+	margin-top: 100px;
+	display: inline-block;
+}
+.b{
+	background-color:#01ccce;
+	color:white;
+	font-size:14px;
+	padding:10px;
+	width:100px;
+	border:1px solid #01ccce;
+	margin-left:20px;
+}
+.logo{
+	margin-top:-150px;
+	float:right;
+	border:10px solid white;
+	margin-right: -100px;
+
+
+}
+.logo1{
+	margin:0px;
+	background-color: #f8695a;
+	padding:20px;
+	margin-left: -100px;
+	
+	}
+	.logo3{margin-top:-100px;
+	margin-bottom:100px;
+	border:10px solid white;
+	margin-right:-100px;
+	float:right;
+	}
+
+.logo4{margin-top:-100px;
+	margin-bottom:300px;
+	border:10px solid white;
+	margin-right:-100px;
+	float:right;
+	}
+.head1{margin-top: 400px;
+	   color:white;
+	   font-size:36px;
+		margin-left: -80px;
+	border-top:.1px dotted #31393b;
+	padding-top: 200px;
+	}
+.head2{margin-top: 500px;
+	   color:white;
+	   font-size:36px;
+	   margin-left: -80px;
+	border-top:.1px dotted #31393b;
+	padding-top: 200px;
+}
+
+
+@media (min-width:500px) and (max-width: 1000px) {
+.logo1{
+	margin:0px;
+	background-color: #f8695a;
+	padding:20px;
+	margin-left: 100px;}
+.head{
+	color:white;
+	font-size:36px;
+	margin-top: 200px;
+	padding:20px;
+	margin-left:20px;
+	width: 300px;
+	transition-duration: 2s;
+	 }
+	 div{margin-top: 200px;}
+
+.p1{
+	color:#555a5b;
+	font-size:16px;
+	width: 356px;
+	padding:20px;
+	margin-left:20px;
+	transition-duration: 2s;
+
+
+	 }
+.p{
+	color:#abadad;
+	font-size:16px;
+	width: 356px;
+	padding:20px;
+	margin-left:20px;
+	line-height: 24px;
+	transition-duration: 2s;
+
+	
+	}
+.a{
+
+	color:#01bfc1;
+	font-size:16px;
+	width:356px;
+	padding:20px;
+	margin-left:20px;
+	border-bottom: .1px dotted #31393b;
+	padding-bottom: 50px;
+	padding-right:100px;
+	text-decoration:none; 
+	display: block;
+	transition-duration: 2s;
+	}
+.price{
+	color:white;
+	font-family:"Quatro-slab";
+	font-size:24px;
+	padding:20px;
+	
+	margin-left:20px;
+	margin-top: 100px;
+	display: inline-block;
+	transition-duration: 2s;
+}
+.b{
+	background-color:#01ccce;
+	color:white;
+	font-size:14px;
+	padding:10px;
+	width:100px;
+	border:1px solid #01ccce;
+	margin-left:80px;
+	transition-duration: 2s;
+}
+.head1{margin-top: 400px;
+	   color:white;
+	   font-size:36px;
+		margin-left:20px;
+	border-top:.1px dotted #31393b;
+	padding-top: 200px;
+	transition-duration: 2s;
+	}
+.head2{margin-top: 500px;
+	   color:white;
+	   font-size:36px;
+	   margin-left:20px;
+	border-top:.1px dotted #31393b;
+	padding-top: 200px;
+	transition-duration: 2s;
+}
+.logo{
+	margin-top:-150px;
+	float:right;
+	border:10px solid white;
+	margin-right:230px;
+	width:300px;
+	height: auto; 
+}
+}
+
+@media (max-width:500px){
+	.logo1{
+	margin:0px;
+	background-color: #f8695a;
+	padding:20px;
+	margin-left: 100px;}
+.head{
+	color:white;
+	font-size:18px;
+	margin-top:200px;
+	padding:20px;
+	margin-left:20px;
+	width: 300px;
+	transition-duration: 2s;
+	 }
+	 div{margin-top: 200px;}
+
+.p1{
+	color:#555a5b;
+	font-size:12px;
+	width: 356px;
+	padding:20px;
+	margin-left:20px;
+	transition-duration: 2s;
+
+
+	 }
+.p{
+	color:#abadad;
+	font-size:10px;
+	width: 300px;
+	padding:20px;
+	margin-left:20px;
+	line-height: 24px;
+	transition-duration: 2s;
+	margin-top: 300px;
+
+	
+	}
+.a{
+
+	color:#01bfc1;
+	font-size:10px;
+	width:356px;
+	padding:20px;
+	margin-left:20px;
+	border-bottom: .1px dotted #31393b;
+	padding-bottom: 50px;
+	padding-right:100px;
+	text-decoration:none; 
+	display: block;
+	transition-duration: 2s;
+	}
+.price{
+	color:white;
+	font-family:"Quatro-slab";
+	font-size:14px;
+	padding:20px;
+	
+	margin-left:20px;
+	margin-top: 100px;
+	display: inline-block;
+	transition-duration: 2s;
+}
+.b{
+	background-color:#01ccce;
+	color:white;
+	font-size:14px;
+	padding:10px;
+	width:100px;
+	border:1px solid #01ccce;
+	margin-left:80px;
+	transition-duration: 2s;
+}
+.head1{margin-top: 400px;
+	   color:white;
+	   font-size:18px;
+		margin-left:20px;
+	border-top:.1px dotted #31393b;
+	padding-top: 200px;
+	transition-duration: 2s;
+	}
+.head2{margin-top: 500px;
+	   color:white;
+	   font-size:18px;
+	   margin-left:20px;
+	border-top:.1px dotted #31393b;
+	padding-top: 200px;
+	transition-duration: 2s;
+}
+.logo{
+	margin-top:50px;
+	float:left;
+	border:10px solid white;
+	width:300px;
+	height: auto; 
+}
+}
