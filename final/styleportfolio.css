@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:white;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*
+Styling for block of images below
+*/
+.homelogo{
+  width:100px;
+  height: auto;
+  margin-top: 20px;
+}
+h1{
+  font-size: 24pt;
+  margin-left: 100px;
+  margin-top:-40px;
+}
+nav{
+  float:right;
+  color:lightgray;
+  margin-right:20px;
+  margin-top:-20px;
+}
+a{
+  padding:10px;
+  color:lightgray;
+
+}
+a:hover{
+  color:black;
+}
+
+.wrapper {
+    background-color: #333;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    max-height: 3000px;
+    padding: 0 15px;
+    margin-bottom: 15px;
+    margin-top:100px;
+    margin-left:100px;
+}
+
+.imageBlock {
+    display:block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.vert {
+    position: relative;
+    width:33%;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.horiz {
+    position: relative;
+    width: 33%;
+    display:flex;
+    align-content: left;
+    justify-content:left;
+    margin-top:-200px;
+}
+.horizsubfive{
+    position: relative;
+    width: 33%;
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    margin-top:-225px;
+    margin-left:190px;
+}
+
+span.imgText { 
+   position: absolute; 
+   bottom: 5px; 
+   left: 5px; 
+   width: 100%; 
+   color: #A17B08;
+}
+
+span.imgText p {
+}
+
+h4.imgH4 {
+    font-family: 'Playfair Display', serif;
+    color: #fafafa;
+}
+
+.readMore {
+    display: none;
+    order: 4;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+/*  
+Hovers below
+*/
+
+.imageBlock:hover {
+    background: rgba(192, 192, 192, 0);
+    transition: all .1s ease-in-out;
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*
+Sub 585px wide stacking below
+*/
+
+@media screen and (max-width:585px){
+    .wrapper {
+        padding-bottom: 15px;
+    }
+    
+    .subfive {
+        display: none;
+    }
+    
+    .vert {
+        width: 50%;
+    }
+    
+    .horiz {
+        width: 100%;
+        order: 1;
+    }
+    
+    .readMore {
+        color: white;
+        display: inline;
+    }
+    
+}
+
+/*
+Sub 360px wide stacking below
+*/
+
+@media screen and (max-width:360px){
+    .horiz {
+        display: none;
+    }
+    .subthree {
+        display: none;
+    }
+    .vert {
+        width: 100%;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+}
+
