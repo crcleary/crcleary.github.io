@@ -61,6 +61,8 @@ h1{
 nav{
 	float:right;
 	color:lightgray;
+	margin-right: 50px;
+	margin-top:-20px;
 }
 a{
 	padding:10px;
@@ -102,8 +104,8 @@ div{
     height: 2000px;
     padding: 0 15px;
     margin-bottom: 15px;
-    margin-top:250px;
-    margin-left:-200px;
+    margin-top:150px;
+    margin-left:100px;
 }
 
 .div1{margin-top:25px;
@@ -181,9 +183,5 @@ div{
 	 opacity:0.3;}
 
 
-.about{ 
-	margin-left:90px;
-	margin-top:100px;
-	float:left;
-}
+
 
